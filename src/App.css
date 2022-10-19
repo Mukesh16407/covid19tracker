@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(6, 6, 95) ;
+  font-family: sans-serif;
+}
+.Header{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: fantasy;
+  margin-bottom: 50px;
+}
+.main{
+  text-align: center;
+  display: flex;
+  color: white;
+  
+  justify-content: space-evenly;
+  
+}
+.Footer{
+  text-align: center;
+  color: white;
+  margin: 150px;
+}
+.active > h1{
+  background-color:purple;
+  height: 200px;
+  transition: 2s ease;
+}
+.active > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.confirmed > h1{
+  background-color:rgb(84, 11, 84);
+  height: 200px;
+}
+.confirmed > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.deaths > h1{
+  background-color:rgb(26, 1, 26);
+  height: 200px;
+}
+.deaths > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.deltaconfirmed > h1{
+  background-color:rgb(36, 14, 36);
+  height: 200px;
+}
+.deltaconfirmed > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.deltadeaths > h1{
+  background-color:rgb(41, 21, 41);
+  height: 200px;
+}
+.deltadeaths > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.deltarecovered > h1{
+  background-color:rgb(48, 21, 48);
+  height: 200px;
+}
+.deltarecovered > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.recovered > h1{
+  background-color:rgb(37, 19, 37);
+  height: 200px;
+}
+.recovered > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
+.time > h1{
+  background-color:rgb(36, 5, 36);
+  height: 200px;
+}
+.time > h1:hover{
+  background-color: rgb(87, 19, 19);
+  transition: 2s ease;
+}
